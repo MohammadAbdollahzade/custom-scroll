@@ -15,3 +15,7 @@ window.addEventListener('scroll',()=>{
 
     console.log(scrollPercentRounded)
 })
+
+window.addEventListener('online',()=> {
+    console.log('You are now offline!')
+})
