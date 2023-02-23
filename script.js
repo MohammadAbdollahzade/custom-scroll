@@ -16,6 +16,6 @@ window.addEventListener('scroll',()=>{
     console.log(scrollPercentRounded)
 })
 
-window.addEventListener('online',()=> {
-    console.log('You are now offline!')
-})
+window.addEventListener('online', function(event) {
+  console.log('شما اکنون آفلاین هستید!');
+});
